@@ -39,6 +39,13 @@
         </div>
       </div>
     </div> -->
+
+    <div class='link'>
+      <span>
+        Data thanks to
+        <a href='https://github.com/fivethirtyeight/data/tree/master/trump-approval-ratings'>fivethirtyeight.com</a>
+      </span>
+    </div>
   </div>
 </template>
 
@@ -191,9 +198,6 @@ export default {
     display: inline-block;
     margin: 0 10px;
   }
-  a {
-    color: #42b983;
-  }
 
   h2 {
     margin-top: 2em;
@@ -299,11 +303,9 @@ export default {
     color: #000;
   }
 
-  a {
-    color: #fff !important;
-    width: 80px;
-    position: absolute;
-    bottom: 10px;
+  .link {
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 
   .share {

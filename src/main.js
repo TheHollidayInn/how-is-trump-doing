@@ -16,10 +16,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 Vue.use(Vuex);
 Vue.use(Meta);
 Vue.use(BootstrapVue);
-// Vue.use(VueAnalytics, {
-//   id: 'UA-27991830-15',
-//   router,
-// });
+Vue.use(VueAnalytics, {
+  id: 'UA-27991830-16',
+  router,
+});
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
